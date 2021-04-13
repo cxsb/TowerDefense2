@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8477490606438605177}
   - component: {fileID: 3538264426252853304}
   - component: {fileID: 5714258721282654909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grenade_Launcher_01_Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0227b3685a971f48b48d2fb48bb94a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerSelf: 10
 --- !u!54 &3538264426252853304
 Rigidbody:
   m_ObjectHideFlags: 0

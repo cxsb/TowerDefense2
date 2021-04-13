@@ -364,7 +364,7 @@ namespace A2
             rigidBullet.transform.position = bulletSpawnTransform.position;
             rigidBullet.transform.rotation = Quaternion.LookRotation(dir);
             rigidBullet.GetComponent<RigidBullet>().SetHitSender(character.hitSender);
-            rigidBullet.GetComponent<RigidBullet>().SetBullet(Bullet);
+            rigidBullet.GetComponent<RigidBullet>().SetBullet(Bullet,character.layerFriendly);
             rigidBullet.GetComponent<Rigidbody>().AddForce(dir * rocketFlightForce, ForceMode.Impulse);
         }
 

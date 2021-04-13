@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1241889012052793183}
   - component: {fileID: 1241889012052793178}
   - component: {fileID: 1241889012052793181}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: RaditionFreeField
   m_TagString: Untagged
   m_Icon: {fileID: 0}

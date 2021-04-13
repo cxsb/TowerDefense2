@@ -8,11 +8,16 @@ namespace A2
     {
 
         // Update is called once per frame
-        void OnTriggerEnter(Collider other)
+        private void Update()
         {
-            if(other.gameObject.tag == "Player")
+            var hits = Physics.OverlapSphere(transform.position,1f);
+            foreach(var hit in hits)
             {
-                PlayerBag.Instance.ChargeToBase();
+                GameObject hitObj = hit.GetComponent<Collider>().gameObject; 
+                if(hitObj.tag == "Player")
+                {
+                    PlayerBag.Instance.ChargeToBase();
+                }
             }
         }
     }

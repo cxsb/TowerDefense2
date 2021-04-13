@@ -8,12 +8,15 @@ namespace A2
     {
         private HitSender hitsSender;
         private Bullet bullet;
+        private int layerIgnore;
 
 
         private void OnTriggerEnter(Collider other)
         {
             GameObject _explode = ExplodePool.Instance.explodePool.New();
-            Collider[] colliders = Physics.OverlapSphere(transform.position, bullet.range);
+            LayerMask layerMask = 1 << layerIgnore;
+            layerMask = ~layerMask;
+            Collider[] colliders = Physics.OverlapSphere(transform.position, bullet.range, layerMask);
             for (int i = 0; i < colliders.Length; i++)
             {
                 var hitReciever = colliders[i].gameObject.GetComponent<HitReciever>();
@@ -34,8 +37,9 @@ namespace A2
             this.hitsSender = hitsSender;
         }
 
-        public void SetBullet(Bullet bullet)
+        public void SetBullet(Bullet bullet, int layerIgnore)
         {
+            this.layerIgnore = layerIgnore;
             this.bullet=bullet;
             StartCoroutine(waitToDie(3));
         }
