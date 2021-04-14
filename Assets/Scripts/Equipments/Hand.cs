@@ -12,16 +12,16 @@ namespace A2
             return "null";
         }
 
-        public TurretSwitch GetTurretSwitch()
+        public Turret GetTurret()
         {
             var hits = Physics.OverlapSphere(InitiativeEquipmentRoot.transform.position,1f);
             foreach(var hit in hits)
             {
                 GameObject hitObj = hit.GetComponent<Collider>().gameObject; 
-                TurretSwitch turretSwitch = hitObj.GetComponent<TurretSwitch>();
-                if(turretSwitch!=null)
+                Turret turret = hitObj.GetComponent<Turret>();
+                if(turret!=null)
                 {
-                    return turretSwitch;
+                    return turret;
                 }
             }
             return null;
@@ -29,7 +29,7 @@ namespace A2
 
         override public bool GetRunnable()
         {
-            return true;
+            return false;
         }
 
         override public float GetSpeedAffect()
@@ -61,10 +61,10 @@ namespace A2
             foreach(var hit in hits)
             {
                 GameObject hitObj = hit.GetComponent<Collider>().gameObject; 
-                TurretSwitch turretSwitch = hitObj.GetComponent<TurretSwitch>();
-                if(turretSwitch!=null)
+                Turret turret = hitObj.GetComponent<Turret>();
+                if(turret!=null)
                 {
-                    turretSwitch.OpenOrClose();
+                    turret.OpenOrClose();
                 }
             }
         }
@@ -75,10 +75,10 @@ namespace A2
             foreach(var hit in hits)
             {
                 GameObject hitObj = hit.GetComponent<Collider>().gameObject; 
-                TurretSwitch turretSwitch = hitObj.GetComponent<TurretSwitch>();
-                if(turretSwitch!=null)
+                Turret turret = hitObj.GetComponent<Turret>();
+                if(turret!=null)
                 {
-                    turretSwitch.TryLevelUp();
+                    turret.TryLevelUp();
                 }
             }
         }

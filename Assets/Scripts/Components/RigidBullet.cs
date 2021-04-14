@@ -11,7 +11,7 @@ namespace A2
         private int layerIgnore;
 
 
-        private void OnTriggerEnter(Collider other)
+        private void OnCollisionEnter(Collision other)
         {
             GameObject _explode = ExplodePool.Instance.explodePool.New();
             LayerMask layerMask = 1 << layerIgnore;
