@@ -23,7 +23,7 @@ namespace A2
             {
                 point.Spawn();
             }
-            WaveUI.Instance.Show("WAVE " + round.ToString() + "\n COMPLETE");
+            WaveUI.Instance.Show("WAVE " + round.ToString() + " COMPLETE");
             yield return new WaitForSeconds(interval);
             Spawn();
         }
