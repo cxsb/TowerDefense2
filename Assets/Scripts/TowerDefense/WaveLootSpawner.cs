@@ -11,7 +11,7 @@ namespace A2
 
         private void Start()
         {
-            WaveSpawner.Instance.respawnPoints.Add(this);
+            WaveSpawner.Instance.actionSpawnLoot += Spawn;
         }
 
         public void Spawn()
