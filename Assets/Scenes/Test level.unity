@@ -471,7 +471,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[4].attackRange
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -481,7 +481,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[5].attack
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -501,7 +501,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[5].attackRange
-      value: 25
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -676,7 +676,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[1].attackRange
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -711,7 +711,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[2].attackRange
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -726,12 +726,17 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[3].attackRange
-      value: 15
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[3].bulletType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
+        type: 3}
+      propertyPath: levelInfos.Array.data[0].attackRange
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400886, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -12874,7 +12879,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[4].attackRange
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -12904,7 +12909,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[5].attackRange
-      value: 6
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -12914,7 +12919,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[0].attackRange
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -12954,7 +12959,7 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[1].attackRange
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
@@ -12964,12 +12969,12 @@ PrefabInstance:
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[2].attackRange
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
       propertyPath: levelInfos.Array.data[3].attackRange
-      value: 4
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4892858999808400885, guid: e678d541b3378a94b95f5b09876bae12,
         type: 3}
