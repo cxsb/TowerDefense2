@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1241889012052793182}
   - component: {fileID: 1241889012052793180}
   - component: {fileID: 1241889012052793183}
-  - component: {fileID: 1241889012052793178}
   - component: {fileID: 1241889012052793181}
+  - component: {fileID: 7373192813777959488}
   m_Layer: 0
   m_Name: RaditionFreeField
   m_TagString: Untagged
@@ -81,18 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1241889012052793178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241889012052793153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6233cda9b222c8e42bcc6a6be4d8e33c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1241889012052793181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106,3 +94,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7373192813777959488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241889012052793153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2c2e22cf15ef343a349dab03241e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
