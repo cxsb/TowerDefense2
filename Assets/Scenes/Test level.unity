@@ -2919,6 +2919,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680573709569718379, guid: 0ff3df1177cf5514eb8016fadf8aeda8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.91
+      objectReference: {fileID: 0}
     - target: {fileID: 683520554873476597, guid: 0ff3df1177cf5514eb8016fadf8aeda8,
         type: 3}
       propertyPath: m_Layer
@@ -10254,6 +10259,19 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 438877353}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837055407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837055406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ab4e67d5226a647b3f5d0f3e3cb598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teamIndex: 0
 --- !u!114 &1837055408
 MonoBehaviour:
   m_ObjectHideFlags: 0
