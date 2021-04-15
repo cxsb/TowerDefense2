@@ -25,6 +25,8 @@ namespace A2
     public class PlayerController : SingletonMono<PlayerController>
     {
         public Character player;
+        public Gun gun;
+        public Hand hand;
         
         public float sensitivityX = 10f;
         public float sensitivityY = 10f;
@@ -70,17 +72,21 @@ namespace A2
 
         private void OperationBtn()
         {
-            if(player.initiativeEquipment == null) return;
+            if(gun == null) return;
 
-            if(Input.GetMouseButtonDown(0)) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Down);
-            if(Input.GetMouseButton(0)) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Press);
-            if(Input.GetMouseButtonUp(0)) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Up);
+            if(Input.GetMouseButtonDown(0)) gun.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Down);
+            if(Input.GetMouseButton(0)) gun.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Press);
+            if(Input.GetMouseButtonUp(0)) gun.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Up);
 
-            if(Input.GetMouseButtonDown(1)) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Down);
-            if(Input.GetMouseButton(1)) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Press);
-            if(Input.GetMouseButtonUp(1)) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Up);
+            if(Input.GetMouseButtonDown(1)) gun.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Down);
+            if(Input.GetMouseButton(1)) gun.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Press);
+            if(Input.GetMouseButtonUp(1)) gun.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Up);
 
-            if(Input.GetKeyDown ("r")) player.initiativeEquipment.FunctionBtnInput(player,BtnType.Sub1,BtnInputType.Down);
+            if(Input.GetKeyDown ("r")) gun.FunctionBtnInput(player,BtnType.Sub1,BtnInputType.Down);
+
+            if(hand == null) return;
+            if(Input.GetKeyDown ("e")) hand.FunctionBtnInput(player,BtnType.Main1,BtnInputType.Up);
+            if(Input.GetKeyDown ("f")) hand.FunctionBtnInput(player,BtnType.Main2,BtnInputType.Up);
         }
     }
 }

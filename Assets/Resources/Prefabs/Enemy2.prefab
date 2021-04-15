@@ -48,7 +48,6 @@ MonoBehaviour:
   bulletType: 1
   fireMode: 2
   reloadMode: 1
-  range: 1.5
   bullet:
     range: 5
     damageTemp: 4
@@ -333,6 +332,7 @@ MonoBehaviour:
   healthState: {fileID: 4538070526831490476}
   hitSender: {fileID: 4538070526831490456}
   isBusy: 0
+  layerFriendly: 0
   initiativeEquipmentRoot: {fileID: 710753877640449650}
   initiativeEquipment: {fileID: 710753877640449651}
   moveSpeed: 3
@@ -489,8 +489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3b423b72aa71104bbce585b53a991d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPack: {fileID: 1885791596034194009, guid: 935d0c2dca47f824c8bd767318f9ac55,
-    type: 3}
+  objPerfab: {fileID: 0}
+  percent: 0
   healthState: {fileID: 4538070526831490476}
 --- !u!1 &5632946335384053824
 GameObject:
@@ -501,7 +501,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5632946335384053825}
-  - component: {fileID: 5632946335384053951}
   - component: {fileID: 5632946335384053950}
   m_Layer: 0
   m_Name: Controller
@@ -524,29 +523,6 @@ Transform:
   m_Father: {fileID: 4538070526831490455}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5632946335384053951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5632946335384053824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d350584d2c769f44fa1bf652fc8f8e63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 4538070526831490451}
-  initiativeEquipment: {fileID: 710753877640449651}
-  initiativeEquipmentRoot: {fileID: 710753877640449650}
-  agent: {fileID: 4538070526831490448}
-  teamPlayer: {fileID: 4538070526831490457}
-  eyes: {fileID: 6488483605909789810}
-  searchRange: 30
-  attackRange: 18
-  stopRange: 12
-  speed: 3
-  aimSpeed: 0.75
 --- !u!114 &5632946335384053950
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,15 +19,24 @@ namespace A2
         public Text levelHint;
         
         public GameObject interactUI;
+        public GameObject interactUI1;
+        public GameObject interactUI2;
 
         // Update is called once per frame
         void Update()
         {
             var turret = hand.GetTurret();
-            if(turret == null) interactUI.SetActive(false);
+            if(turret == null)
+            {
+                interactUI.SetActive(false);
+                interactUI1.SetActive(false);
+                interactUI2.SetActive(false);
+            }
             else
             {
                 interactUI.SetActive(true);
+                interactUI1.SetActive(true);
+                interactUI2.SetActive(true);
                 if(turret.isOpen) interactHint.text = "Close";
                 else interactHint.text = "Open";
                 lv.text = "Lv : " + turret.level.ToString();
