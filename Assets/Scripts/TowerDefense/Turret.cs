@@ -56,7 +56,7 @@ namespace A2
 
         public int GetCostToNextLevel()
         {
-            if(GetIsLevelMax()) return levelInfos[level].cost;
+            if(!GetIsLevelMax()) return levelInfos[level].cost;
             else return 0;
         }
 
