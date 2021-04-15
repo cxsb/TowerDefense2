@@ -13048,7 +13048,7 @@ MonoBehaviour:
   multishot: 1
   rocketFlightForce: 10
   rocketMaxFlightTime: 5
-  bulletSpawnTransform: {fileID: 0}
+  bulletSpawnTransform: {fileID: 7926507088801603979}
   criticalChance: 0.3
   criticalDamage: 1.5
   autoReloadMode: 2
