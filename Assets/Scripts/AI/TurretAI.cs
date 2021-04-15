@@ -39,7 +39,11 @@ namespace A2
         // Update is called once per frame
         void FixedUpdate()
         {
-            if(Base.Instance.power <= 0) return;
+            if(Base.Instance.power <= 0)
+            {
+                initiativeEquipment.FunctionBtnInput(character, BtnType.Main1, BtnInputType.Up);
+                return;
+            }
             if(targetTeamPlayer == null) 
             {
                 readyToAttack = false;
