@@ -13,7 +13,8 @@ namespace A2
         public int raditionLevel { get;private set; }
         public int raditionLevelMax = 100;
 
-        public bool isInZone;
+        [HideInInspector]
+        public bool isInZone = true;
 
         // Start is called before the first frame update
         void Start()
