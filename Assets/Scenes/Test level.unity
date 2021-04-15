@@ -121,7 +121,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: c2c4529090de7a845968f0c52a5e8583, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 86b3c0cf0e5122d44943d3e43d22c3ad, type: 2}
 --- !u!1001 &19334130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,6 +132,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -277,7 +281,7 @@ MonoBehaviour:
   healthBarBase: {fileID: 883472934}
   raditionLevelPlayer: {fileID: 1182680066}
   hitRecieverPlayer: {fileID: 563776380}
-  hitRecieverBase: {fileID: 0}
+  hitRecieverBase: {fileID: 1419187622}
   raditionReciever: {fileID: 563776376}
 --- !u!114 &31019925
 MonoBehaviour:
@@ -326,6 +330,10 @@ PrefabInstance:
     - target: {fileID: 185426, guid: ba67efa6dcab9a54aac7e607f17f759c, type: 3}
       propertyPath: m_Name
       value: Explosive Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 185426, guid: ba67efa6dcab9a54aac7e607f17f759c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492256, guid: ba67efa6dcab9a54aac7e607f17f759c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -453,6 +461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5279871
@@ -530,6 +542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5357913
@@ -606,6 +622,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_Name
       value: Barbed Wire (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -939,6 +959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5279871
@@ -1016,6 +1040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone 8
       objectReference: {fileID: 0}
+    - target: {fileID: 106854, guid: dda0435c9e39a7940aa267ba0bf01a65, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 450344, guid: dda0435c9e39a7940aa267ba0bf01a65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.68
@@ -1085,6 +1113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbed Wire (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.64
@@ -1153,6 +1185,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1243,6 +1279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House 3
       objectReference: {fileID: 0}
+    - target: {fileID: 179232, guid: 665e86ea903c9fc4687aca844f22b7e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 444890, guid: 665e86ea903c9fc4687aca844f22b7e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.98
@@ -1327,6 +1367,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 32885ec510f830d41b320dc0c83f9266, type: 3}
+--- !u!1 &190777263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 134962, guid: d2a6ad434aae8cd40aa572accaee516e,
+    type: 3}
+  m_PrefabInstance: {fileID: 683012378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &190777264
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190777263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1585305e98775cc4681aa2a4f28dd4c9, type: 3}
 --- !u!1001 &196708742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,6 +1397,10 @@ PrefabInstance:
     - target: {fileID: 160028, guid: ef824728a3e568d40a0b13dd0e6261be, type: 3}
       propertyPath: m_Name
       value: Bare_Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 160028, guid: ef824728a3e568d40a0b13dd0e6261be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 499752, guid: ef824728a3e568d40a0b13dd0e6261be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1406,6 +1470,10 @@ PrefabInstance:
     - target: {fileID: 191684, guid: 3a4604fdf58461e49ac49988cfda2467, type: 3}
       propertyPath: m_Name
       value: Wall 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 191684, guid: 3a4604fdf58461e49ac49988cfda2467, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 416178, guid: 3a4604fdf58461e49ac49988cfda2467, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1856,6 +1924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.705
@@ -1944,6 +2016,10 @@ PrefabInstance:
     - target: {fileID: 156760, guid: 9eaa75f52ac10034a88fce970c925a63, type: 3}
       propertyPath: m_Name
       value: Wall 5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 156760, guid: 9eaa75f52ac10034a88fce970c925a63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 469822, guid: 9eaa75f52ac10034a88fce970c925a63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2041,8 +2117,8 @@ RectTransform:
   m_Father: {fileID: 247254029}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.699, y: 0}
-  m_AnchorMax: {x: 0.699, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2215,6 +2291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fence
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2a22ae09cfeb5964e867d8f65eeb075d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2a22ae09cfeb5964e867d8f65eeb075d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.111023
@@ -2325,6 +2405,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ae34394544290dc4ebd78c60de02d815, type: 3}
+--- !u!1 &452322540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 162276, guid: 41e2bad4d754c3b4dafcd74c72c7b2a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1602591471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &452322541
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452322540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 94f7227d4beeb7842a5644eff220cf3a, type: 3}
 --- !u!1 &459640397
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,7 +2444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &459640398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2605,6 +2705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.365
@@ -2729,6 +2833,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_Name
       value: Barbed Wire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3126,8 +3234,6 @@ GameObject:
   - component: {fileID: 666810681}
   - component: {fileID: 666810680}
   - component: {fileID: 666810679}
-  - component: {fileID: 666810684}
-  - component: {fileID: 666810683}
   m_Layer: 0
   m_Name: Ocean
   m_TagString: Untagged
@@ -3212,31 +3318,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &666810683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 666810678}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 750, y: 1.9999251, z: 750}
-  m_Center: {x: 0, y: 0.000025600195, z: 0}
---- !u!114 &666810684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 666810678}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6233cda9b222c8e42bcc6a6be4d8e33c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &670205097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a,
@@ -3267,6 +3348,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_Name
       value: Barbed Wire (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3382,6 +3467,10 @@ PrefabInstance:
     - target: {fileID: 134962, guid: d2a6ad434aae8cd40aa572accaee516e, type: 3}
       propertyPath: m_Name
       value: House 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 134962, guid: d2a6ad434aae8cd40aa572accaee516e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 475392, guid: d2a6ad434aae8cd40aa572accaee516e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3535,6 +3624,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3717,6 +3810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 137336, guid: 468a5e079c3602c40be1e0ec8361e3f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 486764, guid: 468a5e079c3602c40be1e0ec8361e3f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.29
@@ -3806,6 +3903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.739
@@ -3894,6 +3995,10 @@ PrefabInstance:
     - target: {fileID: 108944, guid: 857a2db289f3fb842910b8432309f574, type: 3}
       propertyPath: m_Name
       value: Stone 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 108944, guid: 857a2db289f3fb842910b8432309f574, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 463740, guid: 857a2db289f3fb842910b8432309f574, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4024,6 +4129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone 5
       objectReference: {fileID: 0}
+    - target: {fileID: 172294, guid: e872a88614e4b3a4fb71ec4011ca45e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 498464, guid: e872a88614e4b3a4fb71ec4011ca45e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.4
@@ -4103,7 +4212,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.699, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4154,6 +4263,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4481,6 +4594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall 8
       objectReference: {fileID: 0}
+    - target: {fileID: 191684, guid: 3a4604fdf58461e49ac49988cfda2467, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 416178, guid: 3a4604fdf58461e49ac49988cfda2467, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.23
@@ -4555,6 +4672,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_Name
       value: Wooden Stick 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4704,6 +4825,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_Name
       value: Wooden Stick 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4923,6 +5048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant 2
       objectReference: {fileID: 0}
+    - target: {fileID: 120500, guid: 6f1f15afac0d4284da237c8a84e35beb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 434414, guid: 6f1f15afac0d4284da237c8a84e35beb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.6
@@ -4991,6 +5120,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5081,6 +5214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall 5
       objectReference: {fileID: 0}
+    - target: {fileID: 156760, guid: 9eaa75f52ac10034a88fce970c925a63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 469822, guid: 9eaa75f52ac10034a88fce970c925a63, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.42102
@@ -5150,6 +5287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5357913
@@ -5206,6 +5347,10 @@ PrefabInstance:
     - target: {fileID: 145034, guid: 035bd3e40272194418eed3e342f759c5, type: 3}
       propertyPath: m_Name
       value: Stone 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 145034, guid: 035bd3e40272194418eed3e342f759c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464684, guid: 035bd3e40272194418eed3e342f759c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5391,6 +5536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone 4
       objectReference: {fileID: 0}
+    - target: {fileID: 133634, guid: 034b33ade44411e4885fb1f76bdd2a35, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 419782, guid: 034b33ade44411e4885fb1f76bdd2a35, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60.62
@@ -5473,6 +5622,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_Name
       value: Barbed Wire
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5760,6 +5913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5279871
@@ -5816,6 +5973,10 @@ PrefabInstance:
     - target: {fileID: 108042, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
       propertyPath: m_Name
       value: Watchtower
+      objectReference: {fileID: 0}
+    - target: {fileID: 108042, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 411530, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5932,6 +6093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.739
@@ -6020,6 +6185,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6452,8 +6621,8 @@ RectTransform:
   m_Father: {fileID: 493944385}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.699, y: 0}
-  m_AnchorMax: {x: 0.699, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6605,6 +6774,10 @@ PrefabInstance:
     - target: {fileID: 108042, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
       propertyPath: m_Name
       value: Watchtower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108042, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 411530, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6857,6 +7030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone 7
       objectReference: {fileID: 0}
+    - target: {fileID: 108944, guid: 857a2db289f3fb842910b8432309f574, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 463740, guid: 857a2db289f3fb842910b8432309f574, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.127945
@@ -6913,6 +7090,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_Name
       value: Wooden Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6990,6 +7171,10 @@ PrefabInstance:
     - target: {fileID: 179396, guid: c1ea6fb7cd1bd9a40947a1cf293b6a4e, type: 3}
       propertyPath: m_Name
       value: Wall 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 179396, guid: c1ea6fb7cd1bd9a40947a1cf293b6a4e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 418850, guid: c1ea6fb7cd1bd9a40947a1cf293b6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7164,6 +7349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5279871
@@ -7220,6 +7409,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_Name
       value: Wooden Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7297,6 +7490,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7386,6 +7583,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7638,6 +7839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.739
@@ -7828,6 +8033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5279871
@@ -7921,6 +8130,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3991026635453585975, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4644803886590182800, guid: 9dba87e241d7efe459688bf18cee94a8,
         type: 3}
       propertyPath: m_Name
@@ -7996,6 +8210,36 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8207612119454649370, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207612119454673480, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207612119454732248, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207612119454748738, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207612119454751024, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8207612119454766016, guid: 9dba87e241d7efe459688bf18cee94a8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8207612119455075594, guid: 9dba87e241d7efe459688bf18cee94a8,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -8013,6 +8257,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dba87e241d7efe459688bf18cee94a8, type: 3}
+--- !u!114 &1419187622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5178098208078839826, guid: 9dba87e241d7efe459688bf18cee94a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1419187621}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb0bc8280b311f4ca311815e545bcc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1453954340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8023,6 +8279,10 @@ PrefabInstance:
     - target: {fileID: 179396, guid: c1ea6fb7cd1bd9a40947a1cf293b6a4e, type: 3}
       propertyPath: m_Name
       value: Wall 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 179396, guid: c1ea6fb7cd1bd9a40947a1cf293b6a4e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 418850, guid: c1ea6fb7cd1bd9a40947a1cf293b6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8099,6 +8359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5357913
@@ -8155,6 +8419,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_Name
       value: Barbed Wire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8256,6 +8524,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_Name
       value: Wooden Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8398,6 +8670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbed Wire (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.78
@@ -8486,6 +8762,10 @@ PrefabInstance:
     - target: {fileID: 162276, guid: 41e2bad4d754c3b4dafcd74c72c7b2a2, type: 3}
       propertyPath: m_Name
       value: House 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 162276, guid: 41e2bad4d754c3b4dafcd74c72c7b2a2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 467072, guid: 41e2bad4d754c3b4dafcd74c72c7b2a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8581,6 +8861,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8795,6 +9079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114962, guid: 58bf644523d79dd448126b43a2c3e3d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 448138, guid: 58bf644523d79dd448126b43a2c3e3d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.42
@@ -8910,6 +9198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5357913
@@ -9007,6 +9299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.99
@@ -9101,6 +9397,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9197,6 +9497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barbed Wire (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29fa562717b28ef41a885a1f94cba7c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.15
@@ -9291,6 +9595,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9477,6 +9785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.705
@@ -9591,6 +9903,10 @@ PrefabInstance:
     - target: {fileID: 114962, guid: 58bf644523d79dd448126b43a2c3e3d6, type: 3}
       propertyPath: m_Name
       value: Stone 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114962, guid: 58bf644523d79dd448126b43a2c3e3d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 448138, guid: 58bf644523d79dd448126b43a2c3e3d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9738,6 +10054,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_Name
       value: Wooden Stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a9d643a5dbba02a4ca3b601d1a96124a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9923,6 +10243,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10174,6 +10498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden Stick 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ad253f180a1f6d44b288de7b49e67af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5279871
@@ -10250,6 +10578,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10346,6 +10678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 41f371db48be95f4cbca4d63d5c0b33c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41f371db48be95f4cbca4d63d5c0b33c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.181023
@@ -10414,6 +10750,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10552,7 +10892,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.699, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10603,6 +10943,10 @@ PrefabInstance:
     - target: {fileID: 145034, guid: 035bd3e40272194418eed3e342f759c5, type: 3}
       propertyPath: m_Name
       value: Stone 6 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 145034, guid: 035bd3e40272194418eed3e342f759c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464684, guid: 035bd3e40272194418eed3e342f759c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10666,6 +11010,10 @@ PrefabInstance:
     - target: {fileID: 153348, guid: 451afc9b7defe634a915d304e1224b1a, type: 3}
       propertyPath: m_Name
       value: House 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 153348, guid: 451afc9b7defe634a915d304e1224b1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400896, guid: 451afc9b7defe634a915d304e1224b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10761,6 +11109,10 @@ PrefabInstance:
     - target: {fileID: 148372, guid: 4647073caa3988c46a8aa5e3383f21a4, type: 3}
       propertyPath: m_Name
       value: Stone 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 148372, guid: 4647073caa3988c46a8aa5e3383f21a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 490666, guid: 4647073caa3988c46a8aa5e3383f21a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10935,6 +11287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.339
@@ -11024,6 +11380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House 5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 162276, guid: 41e2bad4d754c3b4dafcd74c72c7b2a2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 467072, guid: 41e2bad4d754c3b4dafcd74c72c7b2a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.13
@@ -11098,6 +11458,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_Name
       value: Sand Bag (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11307,6 +11671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.339
@@ -11401,6 +11769,10 @@ PrefabInstance:
     - target: {fileID: 179232, guid: 665e86ea903c9fc4687aca844f22b7e4, type: 3}
       propertyPath: m_Name
       value: House 3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 179232, guid: 665e86ea903c9fc4687aca844f22b7e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 444890, guid: 665e86ea903c9fc4687aca844f22b7e4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11507,6 +11879,10 @@ PrefabInstance:
     - target: {fileID: 112404, guid: d8ec6edb04db8e84b8516d439a28a89b, type: 3}
       propertyPath: m_Name
       value: House 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 112404, guid: d8ec6edb04db8e84b8516d439a28a89b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 480186, guid: d8ec6edb04db8e84b8516d439a28a89b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11679,6 +12055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Watchtower
       objectReference: {fileID: 0}
+    - target: {fileID: 108042, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 411530, guid: 86fdee843de357b4380306c6fad7cb5f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.872543
@@ -11845,6 +12225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand Bag (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fc0cd18c63a1d8d4a91d3ac3b5deacd4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.705
@@ -11933,7 +12317,7 @@ PrefabInstance:
     - target: {fileID: 3636655225294248448, guid: 6867ac46fe40a5f498bf1e2406fadd48,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.95
+      value: -8.11
       objectReference: {fileID: 0}
     - target: {fileID: 3636655225294248448, guid: 6867ac46fe40a5f498bf1e2406fadd48,
         type: 3}
@@ -11943,7 +12327,7 @@ PrefabInstance:
     - target: {fileID: 3636655225294248448, guid: 6867ac46fe40a5f498bf1e2406fadd48,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.36
+      value: 39.52
       objectReference: {fileID: 0}
     - target: {fileID: 3636655225294248448, guid: 6867ac46fe40a5f498bf1e2406fadd48,
         type: 3}
@@ -12185,7 +12569,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.699, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -12474,8 +12858,8 @@ RectTransform:
   m_Father: {fileID: 8445345354209213297}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.699, y: 0}
-  m_AnchorMax: {x: 0.699, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
