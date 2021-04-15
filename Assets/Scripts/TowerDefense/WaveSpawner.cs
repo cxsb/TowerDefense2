@@ -5,10 +5,10 @@ namespace A2
 {
     public class WaveSpawner : SingletonMono<WaveSpawner>
     {
-        public GameObject enemy;
-        public List<WaveLootSpawner> respawnPoints = new List<WaveLootSpawner>();
+        public System.Action<int> actionSpawnZombie;
+        public System.Action actionSpawnLoot;
         public float secondsPerRound = 5;
-        public int zombieNum { get;private set; }
+        public int zombieNum;
         public int round { get;private set; }
 
         // Start is called before the first frame update
@@ -19,10 +19,7 @@ namespace A2
 
         IEnumerator waitSpawn(float interval)
         {
-            foreach (var point in respawnPoints)
-            {
-                point.Spawn();
-            }
+            if(actionSpawnLoot != null) actionSpawnLoot();
             WaveUI.Instance.Show("WAVE " + round.ToString() + " COMPLETE");
             yield return new WaitForSeconds(interval);
             Spawn();
@@ -30,14 +27,7 @@ namespace A2
 
         private void Spawn()
         {
-            zombieNum += GetEnemyNum(round);
-            for(int i=0;i<GetEnemyNum(round);i++)
-            {
-                var obj = Instantiate(enemy);
-                int x = Random.Range(-20,20);
-                int y = Random.Range(-20,20);
-                obj.transform.position = new Vector3(x,1,y);
-            }
+            if(actionSpawnZombie != null) actionSpawnZombie(round);
             round++;
             WaveUI.Instance.Show("WAVE " + round.ToString());
         }
@@ -46,11 +36,6 @@ namespace A2
         {
             zombieNum--;
             if(zombieNum<=0) StartCoroutine(waitSpawn(secondsPerRound));;
-        }
-
-        private int GetEnemyNum(int roundNum)
-        {
-            return (roundNum + 1)*3;
         }
     }
 }
