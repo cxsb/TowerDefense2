@@ -6,22 +6,10 @@ namespace A2
 {
     public class RadiationFreeZone : MonoBehaviour
     {
-        void OnTriggerEnter(Collider other)
+        public RadiationReciever raditionReciever;
+        private void Update()
         {
-            RadiationReciever raditionReciever = other.gameObject.GetComponent<RadiationReciever>();
-            if(raditionReciever != null)
-            {
-                raditionReciever.isInZone = false;
-            }
-        }
-
-        void OnTriggerExit(Collider other)
-        {
-            RadiationReciever raditionReciever = other.gameObject.GetComponent<RadiationReciever>();
-            if(raditionReciever != null)
-            {
-                raditionReciever.isInZone = true;
-            }
+            raditionReciever.isInZone = (raditionReciever.transform.position - transform.position).magnitude > 9.5;
         }
     }
 }
