@@ -22,11 +22,9 @@ namespace A2
             raditionLevelPlayer.gameObject.GetComponent<Slider>().value = raditionReciever.raditionLevel/(float)raditionReciever.raditionLevelMax;
             if(healthBarPlayer.gameObject.GetComponent<Slider>().value == 0f || healthBarBase.gameObject.GetComponent<Slider>().value == 0f || raditionLevelPlayer.gameObject.GetComponent<Slider>().value == 1f)
             {
-                #if UNITY_EDITOR
-                UnityEditor.EditorApplication.isPlaying = false;
-                #else
-                Application.Quit();
-                #endif
+                Screen.lockCursor = false;
+                Cursor.visible = true;
+                Application.LoadLevel("EndScene");
             }
         }
     }

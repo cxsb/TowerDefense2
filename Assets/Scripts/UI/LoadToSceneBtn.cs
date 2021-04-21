@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 namespace A2
 {
-    public class LoadToTowerDefenseBtn : MonoBehaviour
+    public class LoadToSceneBtn : MonoBehaviour
     {
+        public System.String nextScene;
         // Start is called before the first frame update
 		void Start ()
 		{
@@ -16,7 +17,7 @@ namespace A2
 
         void OnClick()
         {
-            Application.LoadLevel("TowerDefense");
+            Application.LoadLevel(nextScene);
         }
     }
 }

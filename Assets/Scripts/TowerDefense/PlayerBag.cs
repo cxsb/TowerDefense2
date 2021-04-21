@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace A2
 {
-    public class PlayerBag : Singleton<PlayerBag>
+    public class PlayerBag : SingletonMono<PlayerBag>
     {
         public int power { get; private set;}
         public void GetPowerPack(int value)

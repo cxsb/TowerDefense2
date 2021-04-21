@@ -12802,8 +12802,8 @@ MonoBehaviour:
     difArmor: 0
   fireInterval: 0.09
   magazineSize: 30
-  reloadTime: 2
-  reloadEmptyTime: 3
+  reloadTime: 1
+  reloadEmptyTime: 2
   isInfAmmo: 0
   isBreakReloadShoot: 0
   accuracyDefault: 0.95

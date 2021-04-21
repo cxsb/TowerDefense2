@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 5adb7811e3c39f642aceaf5c5b9af789
   - enabled: 1
-    path: Assets/Scenes/TowerDefense.unity
-    guid: 9d3518a04688dc04cb35bede9e2ca21c
+    path: Assets/Scenes/Level1.unity
+    guid: a168659ed09c3f247b54c0ff57d74b16
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: d0357b26341a4c740807d1fd89aaae99
   m_configObjects: {}

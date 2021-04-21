@@ -50,7 +50,8 @@ namespace A2
                 var obj = Instantiate(enemy);
                 float x = Random.Range(-5,5)+transform.position.x;
                 float y = Random.Range(-5,5)+transform.position.z;;
-                obj.transform.position = new Vector3(x,transform.position.y,y);
+                var res = new Vector3(x,transform.position.y,y);
+                obj.transform.position = res;
             }
         }
     }
